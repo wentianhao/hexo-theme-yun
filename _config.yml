@@ -38,7 +38,7 @@ toc:
   max_depth: 6
   min_depth: 1
   # placeholder: 很遗憾，咱没写啥目录
-  collapse: true
+  collapse: false
 
 # Social Links.
 social:
@@ -48,35 +48,35 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群
-    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://shang.qq.com/wpa/qunwpa?idkey=c929e704022704d8cced9ec355d44a3fa7ad34aea12cef1de03d75d3d7d5b059
-    icon: icon-qq-line
-    color: "#12B7F5"
+  # - name: QQ 群
+  #   # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+  #   link: https://shang.qq.com/wpa/qunwpa?idkey=c929e704022704d8cced9ec355d44a3fa7ad34aea12cef1de03d75d3d7d5b059
+  #   icon: icon-qq-line
+  #   color: "#12B7F5"
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/wentianhao
     icon: icon-github-line
     color: "#6e5494"
-  - name: 微博
-    link: https://weibo.com/jizhideyunyoujun
-    icon: icon-weibo-line
-    color: "#E6162D"
-  - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
-    icon: icon-douban-line
-    color: "#007722"
-  - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=247102977
-    icon: icon-netease-cloud-music-line
-    color: "#C20C0C"
-  - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
-    icon: icon-zhihu-line
-    color: "#0084FF"
-  - name: 哔哩哔哩
-    link: https://space.bilibili.com/1579790
-    icon: icon-bilibili-line
-    color: "#FF8EB3"
+  # - name: 微博
+  #   link: https://weibo.com/jizhideyunyoujun
+  #   icon: icon-weibo-line
+  #   color: "#E6162D"
+  # - name: 豆瓣
+  #   link: https://www.douban.com/people/yunyoujun/
+  #   icon: icon-douban-line
+  #   color: "#007722"
+  # - name: 网易云音乐
+  #   link: https://music.163.com/#/user/home?id=247102977
+  #   icon: icon-netease-cloud-music-line
+  #   color: "#C20C0C"
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/yunyoujun/
+  #   icon: icon-zhihu-line
+  #   color: "#0084FF"
+  # - name: 哔哩哔哩
+  #   link: https://space.bilibili.com/1579790
+  #   icon: icon-bilibili-line
+  #   color: "#FF8EB3"
   # - name: POPI
   #   link: https://www.popiask.cn/elpsycn
   #   icon: icon-questionnaire-line
@@ -85,27 +85,27 @@ social:
   #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
   #   icon: icon-wechat-2-line
   #   color: "#1AAD19"
-  - name: Twitter
-    link: https://twitter.com/YunYouJun
-    icon: icon-twitter-line
-    color: "#1da1f2"
-  # - name: Telegram
-  #   link: https://t.me/YunYouJun
+  # - name: Twitter
+  #   link: https://twitter.com/YunYouJun
+  #   icon: icon-twitter-line
+  #   color: "#1da1f2"
+  # # - name: Telegram
+  # #   link: https://t.me/YunYouJun
+  # #   icon: icon-telegram-line
+  # #   color: "#0088CC"
+  # - name: Telegram Channel
+  #   link: https://t.me/elpsycn
+  #   # icon: icon-telegram-fill
   #   icon: icon-telegram-line
   #   color: "#0088CC"
-  - name: Telegram Channel
-    link: https://t.me/elpsycn
-    # icon: icon-telegram-fill
-    icon: icon-telegram-line
-    color: "#0088CC"
-  - name: E-Mail
-    link: mailto:me@yunyoujun.cn
-    icon: icon-mail-line
-    color: "#8E71C1"
-  - name: Travelling
-    link: https://travellings.now.sh/
-    icon: icon-send-plane-2-line
-    color: black
+  # - name: E-Mail
+  #   link: mailto:me@yunyoujun.cn
+  #   icon: icon-mail-line
+  #   color: "#8E71C1"
+  # - name: Travelling
+  #   link: https://travellings.now.sh/
+  #   icon: icon-send-plane-2-line
+  #   color: black
 
 codeblock:
   prismjs:
@@ -140,7 +140,11 @@ avatar:
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
-  mickey_mouse: false
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 😊
+    message: 永远相信美好的事情即将发生
 
 # main menu navigation
 menu:
@@ -167,7 +171,7 @@ archive:
   last_word: 没有更多的黑历史了_(:з」∠)_
 
 wordcloud:
-  enable: false
+  enable: true
   height: 350
 
 # You can set color for every tag or category.
@@ -291,7 +295,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 云游君的小站
+  title: 先逃跑再说
   src: /js/ui/banner.js
   border: true
   cloud:
@@ -338,7 +342,7 @@ trianglify:
   opacity: 0.5
 
 cursor:
-  enable: false
+  enable: true
   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
@@ -369,15 +373,15 @@ reward:
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      # path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
       color: "#00A3EE"
       icon: icon-alipay-line
     - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+      # path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
       color: "#12B7F5"
       icon: icon-qq-line
     - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      # path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
       color: "#2DC100"
       icon: icon-wechat-pay-line
     # - name: paypal
@@ -433,10 +437,10 @@ footer:
     # icp: 苏ICP备xxxxxxxx号
 
   live_time:
-    enable: false
+    enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2019-04-12T00:00:00"
+    start_time: "2020-01-05T00:00:00"
 
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
@@ -451,7 +455,7 @@ post_meta:
 
 # notice pin board
 notice:
-  enable: false
+  enable: true
   content: Thanks for watching my blog.
 
 # third party
@@ -488,11 +492,11 @@ comment:
 
 # GitHub Issues Link Button
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
-github_issues:
-  enable: true
-  username: YunYouJun
-  repository: yunyoujun.github.io
-  filters: is:issue
+# github_issues:
+  # enable: true
+  # username: YunYouJun
+  # repository: yunyoujun.github.io
+  # filters: is:issue
 
 # Valine
 # You can get your appid and appkey from https://leancloud.cn
@@ -511,7 +515,7 @@ valine:
   pageSize: 10 # pagination size
   # lang: zh-CN
   visitor: false
-  highlight: true
+  highlight: false
   recordIP: false
   # serverURLs:
   # Emoji See: https://valine.js.org/emoji.html
@@ -567,13 +571,13 @@ minivaline:
 # http://disqus.com/
 disqus:
   enable: false
-  shortname: yunyoujun
+  shortname: wenhao
   count: false
 
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   enable: false
-  shortname: yunyoujun
+  shortname: wenhao
   count: false
   apikey:
 
@@ -612,7 +616,7 @@ wordcount:
 search:
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
-  # placeholder: 想要搜些什么？
+  placeholder: 想要搜些什么？
 
 engine_search:
   enable: false
@@ -628,11 +632,15 @@ local_search:
 
 # https://github.com/oncletom/hexo-algolia
 algolia_search:
-  enable: false
-  src: /js/search/algolia-search.js
+  enable: true
+  src: 
+    - /js/search/algolia-search.js
   hits:
-    per_page: 8 # the number of search results per page
-
+    per_page: 10 # the number of search results per page
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "我们没有找到任何搜索结果: ${query}"
+    hits_stats: "找到${hits}条结果（用时${time} ms）"
 # Ads
 # ---------------
 # Google Adsense
@@ -688,7 +696,7 @@ aplayer:
 
 # special
 mourn:
-  enable: false
+  enable: true
   days:
     - "4-4"
     - "9-18"
